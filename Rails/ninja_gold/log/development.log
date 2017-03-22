@@ -2630,3 +2630,284 @@ Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0
 Processing by RpgController#index as HTML
   Rendered rpg/index.html.erb within layouts/application (1.6ms)
 Completed 200 OK in 170ms (Views: 169.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-03-22 04:21:54 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#index as HTML
+  Rendered rpg/index.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 1075ms (Views: 1058.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reset?authenticity_token=3BHWmxDHaEdViBcYofDHEP1pGNoGvNTVKgH%2FO%2BicSzwgiVOMo0cy49sLLHRze8MIltDI1aHP%2FGrtNvhL1l%2B4uQ%3D%3D" for 10.0.2.2 at 2017-03-22 04:21:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#reset as HTML
+  Parameters: {"authenticity_token"=>"3BHWmxDHaEdViBcYofDHEP1pGNoGvNTVKgH/O+icSzwgiVOMo0cy49sLLHRze8MIltDI1aHP/GrtNvhL1l+4uQ=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-03-22 04:21:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#index as HTML
+  Rendered rpg/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 162ms (Views: 161.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/farm" for 10.0.2.2 at 2017-03-22 04:22:01 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#farm as HTML
+  Parameters: {"authenticity_token"=>"LbDnXYZv6l3sPz6NSfT5pJt4Dru4M3jHRBWPNLpHUbBeqejYHeKrc8Mmuj36ZzCVFn/lnXkk9uoRa19XbETEJg=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-03-22 04:22:01 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#index as HTML
+  Rendered rpg/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 212ms (Views: 210.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cave" for 10.0.2.2 at 2017-03-22 04:22:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#cave as HTML
+  Parameters: {"authenticity_token"=>"XvAXyuvpJsmVyySLi0yO2Ma99eN8NSYx+30abl9UWL8t6RhPcGRn57rSoDs430fpS7oexb0iqByuA8oNiVfNKQ=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-03-22 04:22:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#index as HTML
+  Rendered rpg/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 218ms (Views: 217.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/house" for 10.0.2.2 at 2017-03-22 04:22:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#house as HTML
+  Parameters: {"authenticity_token"=>"BMyJVACUuQnnlf1gAk5AavN9PbgEltaC3BEAqu4Wj2x31YbRmxn4J8iMedCx3YlbfnrWnsWBWK+Jb9DJOBUa+g=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-03-22 04:22:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#index as HTML
+  Rendered rpg/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 211ms (Views: 208.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/casino" for 10.0.2.2 at 2017-03-22 04:22:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#casino as HTML
+  Parameters: {"authenticity_token"=>"9HrCCC828EY3otiVzAFqPl4lxuB9sO2S0S+n3OgaBZaHY82NtLuxaBi7XCV/kqMP0yItxrynY7+EUXe/PhmQAA=="}
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `time' for #<RpgController:0x007faff946df38>
+Did you mean?  timeout):
+  app/controllers/rpg_controller.rb:53:in `casino'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.2ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (52.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-03-22 04:23:46 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#index as HTML
+  Rendered rpg/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 153ms (Views: 152.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reset?authenticity_token=kFDV5lEKcKbf4yajBIVxQd%2FiPxOgI9nFKA9Z7iuOi%2F7jSdpjyocxiPD6ohO3FrhwUuXUNWE0V%2Bh9cYmN%2FY0eaA%3D%3D" for 10.0.2.2 at 2017-03-22 04:23:48 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#reset as HTML
+  Parameters: {"authenticity_token"=>"kFDV5lEKcKbf4yajBIVxQd/iPxOgI9nFKA9Z7iuOi/7jSdpjyocxiPD6ohO3FrhwUuXUNWE0V+h9cYmN/Y0eaA=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-03-22 04:23:48 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#index as HTML
+  Rendered rpg/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 121ms (Views: 120.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/farm" for 10.0.2.2 at 2017-03-22 04:23:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#farm as HTML
+  Parameters: {"authenticity_token"=>"gWfvepG5Abv6m+DK2dHXe4jMpsAujIcnKqkd2EWSQJnEJh4x3So2XuKGBTh5GpLS8gTSyEKmDWOYzDWPgGIEVQ=="}
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `activity' for #<RpgController:0x007faffa606100>
+Did you mean?  activty):
+  app/controllers/rpg_controller.rb:71:in `process_gold'
+  app/controllers/rpg_controller.rb:20:in `farm'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-03-22 04:24:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#index as HTML
+  Rendered rpg/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 163ms (Views: 162.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/farm" for 10.0.2.2 at 2017-03-22 04:24:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#farm as HTML
+  Parameters: {"authenticity_token"=>"qvQB9njnG64PlOZhQRgSYsW5lF0s7WpUQGpMFqKtb7jvtfC9NHQsSxeJA5Ph01fLv3HgVUDH4BDyD2RBZ10rdA=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-03-22 04:24:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#index as HTML
+  Rendered rpg/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 194ms (Views: 193.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/farm" for 10.0.2.2 at 2017-03-22 04:24:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#farm as HTML
+  Parameters: {"authenticity_token"=>"GNBv7hxVqOjy7EtGO+g3/IsA+jrX5VKHvKnskg2K/oddkZ6lUMafDerxrrSbI3JV8ciOMrvP2MMOzMTFyHq6Sw=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-03-22 04:24:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#index as HTML
+  Rendered rpg/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 142ms (Views: 140.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cave" for 10.0.2.2 at 2017-03-22 04:24:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#cave as HTML
+  Parameters: {"authenticity_token"=>"L2XryzaGXGAZifFk1Bj81lpULGNg1WcAZJicaPVYaFZqJBqAehVrhQGUFJZ007l/IJxYawz/7UTW/bQ/MKgsmg=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-03-22 04:24:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#index as HTML
+  Rendered rpg/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 209ms (Views: 207.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cave" for 10.0.2.2 at 2017-03-22 04:24:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#cave as HTML
+  Parameters: {"authenticity_token"=>"z9fK6SmRn4zNW8CVuiWizR3g84H/PumShzubUaNXisSKljuiZQKoadVGJWca7udkZyiHiZMUY9Y1XrMGZqfOCA=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-03-22 04:24:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#index as HTML
+  Rendered rpg/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 122ms (Views: 121.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/house" for 10.0.2.2 at 2017-03-22 04:24:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#house as HTML
+  Parameters: {"authenticity_token"=>"XY3A+jq42IxBIRNfso8dSvFzB4T5Vnuv96LN1gCrWngYzDGxdivvaVk89q0SRFjji7tzjJV88etFx+WBxVsetA=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-03-22 04:24:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#index as HTML
+  Rendered rpg/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 137ms (Views: 136.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/house" for 10.0.2.2 at 2017-03-22 04:24:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#house as HTML
+  Parameters: {"authenticity_token"=>"OnafuApxWKsNIm9pPPAkt+idmlOJnj8LEOvveboYTDd/N27zRuJvThU/ipucO2EeklXuW+W0tU+ijscuf+gI+w=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-03-22 04:24:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#index as HTML
+  Rendered rpg/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 157ms (Views: 156.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/casino" for 10.0.2.2 at 2017-03-22 04:24:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#casino as HTML
+  Parameters: {"authenticity_token"=>"imtllM8fwo3TEaoL7eDONvB4AQaRH7Zh5tYyHVe11iTPKpTfg4z1aMsMT/lNK4ufirB1Dv01PCVUsxpKkkWS6A=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-03-22 04:24:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#index as HTML
+  Rendered rpg/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 141ms (Views: 140.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/casino" for 10.0.2.2 at 2017-03-22 04:24:14 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#casino as HTML
+  Parameters: {"authenticity_token"=>"9ixgsN7Dyz9lQaooLspYrEZU5nwYqyy5VcSsJgGaoZyzbZH7klD82n1cT9qOAR0FPJySdHSBpv3noYRxxGrlUA=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-03-22 04:24:14 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#index as HTML
+  Rendered rpg/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 141ms (Views: 140.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/casino" for 10.0.2.2 at 2017-03-22 04:24:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#casino as HTML
+  Parameters: {"authenticity_token"=>"Dr+cDSOLHs8ud9xbSixBQJP8zvY5as+6GvbTkS7KQ0ZL/m1GbxgpKjZqOanq5wTp6TS6/lVARf6ok/vG6zoHig=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-03-22 04:24:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#index as HTML
+  Rendered rpg/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 127ms (Views: 126.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reset?authenticity_token=w2sCA16pykuxRB4DLbgzQURc3V6C6oylABfHpqxB136GKvNIEjr9rqlZ%2B%2FGNc3boPpSpVu7ABuGycu%2FxabGTsg%3D%3D" for 10.0.2.2 at 2017-03-22 04:24:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#reset as HTML
+  Parameters: {"authenticity_token"=>"w2sCA16pykuxRB4DLbgzQURc3V6C6oylABfHpqxB136GKvNIEjr9rqlZ+/GNc3boPpSpVu7ABuGycu/xabGTsg=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-03-22 04:24:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RpgController#index as HTML
+  Rendered rpg/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 122ms (Views: 121.1ms | ActiveRecord: 0.0ms)

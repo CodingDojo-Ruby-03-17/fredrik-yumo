@@ -14,9 +14,7 @@ class RpgController < ApplicationController
     time = Time.now.strftime("%Y/%m/%d %H:%M %p")
     activity = "Earned #{gold} golds from the farm! #{time}"
     process = "earned"
-    session[:gold] = session[:gold] + gold
-    session[:activities].append([activity, process])
-    redirect_to "/"
+    process_gold(gold, activity, process)
   end
 
   def cave
@@ -24,9 +22,7 @@ class RpgController < ApplicationController
     time = Time.now.strftime("%Y/%m/%d %H:%M %p")
     activity = "Earned #{gold} from the cave! #{time}"
     process = "earned"
-    session[:gold] = session[:gold] + gold
-    session[:activities].append([activity, process])
-    redirect_to "/"
+    process_gold(gold, activity, process)
   end
 
   def house
@@ -34,9 +30,7 @@ class RpgController < ApplicationController
     time = Time.now.strftime("%Y/%m/%d %H:%M %p")
     activity = "Earned #{gold} from the house! #{time}"
     process = "earned"
-    session[:gold] = session[:gold] + gold
-    session[:activities].append([activity, process])
-    redirect_to "/"
+    process_gold(gold, activity, process)
   end
 
   def casino
@@ -51,13 +45,18 @@ class RpgController < ApplicationController
       process = "lost"
       gold = gold * -1
     end
-    session[:gold] = session[:gold] + gold
-    session[:activities].append([activity, process])
-    redirect_to "/"
+    process_gold(gold, activity, process)
   end
 
   def reset
     session.clear
     redirect_to "/"
   end
+
+  private
+    def process_gold (gold, activity, process)
+      session[:gold] = session[:gold] + gold
+      session[:activities].append([activity, process])
+      redirect_to "/"
+    end
 end
