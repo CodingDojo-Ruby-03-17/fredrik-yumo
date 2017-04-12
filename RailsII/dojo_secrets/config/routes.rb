@@ -1,16 +1,3 @@
 Rails.application.routes.draw do
-  get 'users/new' => 'users#new'
-  post 'users' => 'users#create'
-  get 'users/:id' => 'users#show'
-  get 'users/:id/edit' => 'users#edit'
-  patch 'users/:id' => 'users#update'
-  delete 'users/:id' => 'users#destroy'
-  get 'sessions/new' => 'sessions#new'
-  post 'sessions' => 'sessions#create'
-  delete 'sessions/:id' => 'sessions#destroy'
-  get 'secrets' => 'secrets#index'
-  post 'secrets' => 'secrets#create'
-  delete 'secrets/:id' => 'secrets#destroy'
-  post 'likes' => 'likes#create'
-  delete 'likes/:id' => 'likes#destroy'
+  resources :users, :sessions, :secrets, :likes
 end
